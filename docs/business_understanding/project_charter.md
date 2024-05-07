@@ -2,11 +2,11 @@
 
 ## Nombre del Proyecto
 
-[Nombre del proyecto aquí]
+**Clasificación de Flores para Entusiastas**
 
 ## Objetivo del Proyecto
 
-[Descripción breve del objetivo del proyecto y por qué es importante]
+Desarrollar e implementar un sistema de clasificación de especies de flores utilizando técnicas de aprendizaje profundo, con el fin de proporcionar una herramienta eficiente y accesible para la identificación precisa de plantas silvestres. Este sistema permitirá a usuarios sin experiencia botánica especializada identificar especies de flores simplemente tomando una fotografía, facilitando así el análisis de campo y contribuyendo a la comprensión y conservación de la biodiversidad vegetal. El proyecto también aspira a establecer una base inicial para la clasificación de flores que pueda expandirse en el futuro, incluyendo la detección de nuevas especies y la capacidad de comparación entre especies para fines educativos, profesionales e investigativos.
 
 ## Alcance del Proyecto
 
