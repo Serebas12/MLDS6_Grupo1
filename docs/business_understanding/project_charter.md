@@ -12,9 +12,11 @@ Desarrollar e implementar un sistema de clasificación de especies de flores uti
 
 ### Incluye:
 
-- [Descripción de los datos disponibles]
-- [Descripción de los resultados esperados]
-- [Criterios de éxito del proyecto]
+- Tenemos un conjunto de datos que consta de un conjunto de imágenes de disponibilidad pública desde Kaggle, este conjunto de datos constal de 102 tipos de flores en total, este conjunto de datos es desbalanceado, donde cada tipo de flor tiene entre 40 y 258 imágenes como representación, lo que supone un riesgo para el modelo que vamos a aplicar para este proceso.
+
+- Se espera con este proyecto realizar un modelo de clasificación de imágenes planteado desde cero, que no depende de arquitecturas de modelos de deep learning públicos y reconocidos, y pueda generar una predicción acertada de la mayoría de los tipos de flores con el que dependemos dentro del conjunto de datos, donde nos encontramos limitados por la cantidad de información disponible.
+
+- Podemos considerar que el modelo planteado para este proyecto es bueno, si logramos un accuracy por encima del 50%, adicional, que haga una correcta predicción de una buena cantidad de tipos de flores, donde lo podremos verificar con el f1-score aplicado para cada una de las categorías.
 
 ### Excluye:
 
