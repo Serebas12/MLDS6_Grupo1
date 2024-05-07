@@ -20,7 +20,7 @@ Desarrollar e implementar un sistema de clasificación de especies de flores uti
 
 ### Excluye:
 
-- [Descripción de lo que no está incluido en el proyecto]
+- Por las limitantes de tiempo, nos condicionamos al conjunto de datos disponible, por lo tanto, no agregaremos más información para mejorar el balamce que tenemos dentro del clonjunto de datos, adicional, esto limita poder afinar el modelo para la correcta detección de las categorías con bajo nivel de información con respecto a las demás categorías donde se tiene mayor cantidad de información (mayor cantidad de imágenes disponible).
 
 ## Metodología
 
