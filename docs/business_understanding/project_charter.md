@@ -49,5 +49,6 @@ Para alcanzar nuestros objetivos, es esencial diseñar un plan de trabajo eficie
 
 ## Equipo del Proyecto
 
-- [Nombre y cargo del líder del proyecto]
-- [Nombre y cargo de los miembros del equipo]
+- Diana Carolina Diaz Ortigoza
+- Julio Cesar Roa Davila
+- Jair Sebastian Saavedra Alvarado
