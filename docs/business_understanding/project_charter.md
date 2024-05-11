@@ -49,6 +49,6 @@ Para alcanzar nuestros objetivos, es esencial diseñar un plan de trabajo eficie
 
 ## Equipo del Proyecto
 
-- Diana Carolina Diaz Ortigoza
-- Julio Cesar Roa Davila
-- Jair Sebastian Saavedra Alvarado
+- Diana Carolina Diaz Ortigoza (dicdiazor@unal.edu.co)
+- Julio Cesar Roa Davila (jucroada@unal.edu.co)
+- Jair Sebastian Saavedra Alvarado (jssaavedraa@unal.edu.co)
