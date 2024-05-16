@@ -12,4 +12,10 @@ Las imágenes se encuentran en 3 diferentes carpetas (), la división de estas c
 
 ![Imagen1](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/docs/data/Prueba.png)
 
-Para realizar la extracción de las etiquetas se realiza el uso de la librería os, en donde se genera una iteración para cada conjunto de imanes, cada caregoria y finalmente para cada una de imágenes, posteriormente, dichas etiquetas son guardadas en un array, el cual será utilizado más adelante en la etapa de modelamiento. el detalle de la función utilizada se puede encontrar en el notebook [Creación etiqueta]()
+Para realizar la extracción de las etiquetas se realiza el uso de la librería os, en donde se genera una iteración para cada conjunto de imanes, cada categoria y finalmente para cada una de imágenes, posteriormente, dichas etiquetas son guardadas en un array, el cual será utilizado más adelante en la etapa de modelamiento. el detalle de la función utilizada se puede encontrar en el notebook [Creación etiqueta]()
+
+
+## Correspondencia etiquetas
+
+Con la ejecución del procedimiento detallado anteriormente, se logra obtener la correspondencia de cada etiqueta a cada imagen, sin embargo, estas etiquetas corresponden a un número, y es requerido conocer el nombre de la especie a la cual pertenece dicha flor, esto lo podemos lograr con el archivo [cat_to_name.json](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/docs/data/cat_to_name.json), el cual es un archivo .json que contiene todas las correspondencias de cada especie de flor como su etiqueta en número. Este archivo también se encuentra en el repositorio inicial de Kaggle.
+
