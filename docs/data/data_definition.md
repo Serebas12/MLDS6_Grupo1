@@ -20,16 +20,16 @@ La dirección para la lectura del conjunto de datos es yousefmohamed20/oxford-10
 -  La ruta de descarga del conjunto de datos por medio de la api de Kaggle en Unix es yousefmohamed20/oxford-102-flower-dataset
 -  El conjunto de datos viene ordenado en carpetas, donde la carpeta principal viene comprimido en formato .zip con el nombre **102 flower**, y de aquí se desprende las demás carpetas d ela siguiente manera:
 
-**102 flowers/**
-├── flowers/
-│   ├── test/
-|   |   └── (Carpetas indexadas con números del 1 al 102)
-│   |── train
-|   |   └── (Carpetas indexadas con números del 1 al 102)
-│   |── valid
-|   |   └── (Carpetas indexadas con números del 1 al 102)
-|   └── cat_to_name.json
-└── README.md
+**102 flowers/**\n
+├── flowers/\n
+│   ├── test/\n
+|   |   └── (Carpetas indexadas con números del 1 al 102)\n
+│   |── train\n
+|   |   └── (Carpetas indexadas con números del 1 al 102)\n
+│   |── valid\n
+|   |   └── (Carpetas indexadas con números del 1 al 102)\n
+|   └── cat_to_name.json\n
+└── README.md\n
 
 
 
