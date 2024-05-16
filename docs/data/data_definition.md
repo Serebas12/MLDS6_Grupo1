@@ -32,14 +32,10 @@ La dirección para la lectura del conjunto de datos es yousefmohamed20/oxford-10
 └── README.md
 ```
 
-
 Donde los puntos suspensivos (...) señala conjuntos de carpetas las cuales se encuentran enumeradas del 1 al 102 y cada una almacena las imagenes de un tipo de flor. Esta selección viene dada por el catálogo almacenado en el archivo **cat_to_name.json** donde viene el nombre de la flor, identado por un número del 1 a 102, haciendo la relación con el nombre las carpetas que almacenan las respectivas imágenes.
 
 El archivo **README.md** es un archivo plano, el cual trae una breve descripción del conjunto de datos.
 
-
 ### Base de datos de destino
 
-- [ ] Especificar la base de datos de destino para los datos.
-- [ ] Especificar la estructura de la base de datos de destino.
-- [ ] Describir los procedimientos de carga y transformación de los datos en la base de datos de destino.
+Como todo los datos se van a manejar en caliente, es decir, después de realizar la recolección de datos desde la fuente, se realiza el preprocesamiento y no se almacena en ningún lado, si no que con la misma memoría que nos ofrece colab, las almacenamos para el proceso de entrenamiento y las diferentes pruebas y validaciones del modelo.
