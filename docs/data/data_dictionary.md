@@ -1,6 +1,6 @@
 # Diccionario de datos
 
-## Variables
+## Variables explicativas
 
 El conjunto de datos está etiquetado con un total de 102 categorías, esto define la variable objetivo, y enfoca el desarrollo del proyecto en un modelo de clasificación, además, cada una de las categorías tiene entre 40 y 258 imágenes, lo que implica que es un conjunto de datos desbalanceado.
 
