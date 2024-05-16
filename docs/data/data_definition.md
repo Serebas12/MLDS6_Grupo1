@@ -19,16 +19,27 @@ La dirección para la lectura del conjunto de datos es yousefmohamed20/oxford-10
 -  La fuente del conjunto de datos es https://www.kaggle.com/datasets/yousefmohamed20/oxford-102-flower-dataset/data
 -  La ruta de descarga del conjunto de datos por medio de la api de Kaggle en Unix es yousefmohamed20/oxford-102-flower-dataset
 -  El conjunto de datos viene ordenado en carpetas, donde la carpeta principal viene comprimido en formato .zip con el nombre **102 flower**, y de aquí se desprende las demás carpetas d ela siguiente manera:
+
 **102 flower**
+
 +  flowers
+
 ++     test
+
 +++       ...
+
 ++     train
+
 +++       ...
+
 ++     valid
+
 +++       ...
+
 ++     cat_to_name.json
+
 +   README.md
+
 Donde los puntos suspensivos (...) señala conjuntos de carpetas las cuales se encuentran enumeradas del 1 al 102 y cada una almacena las imagenes de un tipo de flor. Esta selección viene dada por el catálogo almacenado en el archivo **cat_to_name.json** donde viene el nombre de la flor, identado por un número del 1 a 102, haciendo la relación con el nombre las carpetas que almacenan las respectivas imágenes.
 
 El archivo **README.md** es un archivo plano, el cual trae una breve descripción del conjunto de datos.
