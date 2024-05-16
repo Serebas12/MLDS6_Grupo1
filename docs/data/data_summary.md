@@ -12,7 +12,7 @@ Nuestro conjunto de datos presenta un desbalanceo significativo, ya que cada una
 
 Al revisar nuestra base de entrenamiento, vemos que todas las imágenes del conjunto de datos son legibles y pueden cargarse fácilmente, lo que elimina cualquier obstáculo en la lectura de datos para nuestro proyecto. Además, el hecho de que todas las imágenes estén en formato .jpg simplifica aún más su manejo e integración en nuestro flujo de trabajo, garantizando una implementación fácil y eficiente durante el desarrollo del proyecto.
 
-Al revisar los tamaños de las imágenes con las que contamos en cada categoría, se concluye que si bien sus resoluciones están en un rango de alrededor de 500 a 800 pixeles en ancho y altura, estas no tienen, en general, el mismo tamaño por lo que vemos la necesidad de reescalarlas para tener consistencia en el proceso de entrenamiento.
+Adicionalmente, al examinar los tamaños de las imágenes con las que contamos en cada categoría, se concluye que si bien sus resoluciones están en un rango de alrededor de 500 a 800 pixeles en ancho y altura, estas no tienen, en general, el mismo tamaño por lo que vemos la necesidad de reescalarlas para tener consistencia en el proceso de entrenamiento.
 
 ## Variable objetivo
 
