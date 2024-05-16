@@ -32,7 +32,7 @@ La dirección para la lectura del conjunto de datos es yousefmohamed20/oxford-10
 └── README.md
 ```
 
-Donde los puntos suspensivos (...) señala conjuntos de carpetas las cuales se encuentran enumeradas del 1 al 102 y cada una almacena las imagenes de un tipo de flor. Esta selección viene dada por el catálogo almacenado en el archivo **cat_to_name.json** donde viene el nombre de la flor, identado por un número del 1 a 102, haciendo la relación con el nombre las carpetas que almacenan las respectivas imágenes.
+Donde la marca de las carpetas indexadas son 102 carpetas enumeradas del 1 al 102, donde cada una de estas flores contiene imagenes de un tipo de flores, las cuales se indexan en el archivo .json que se encuentra en la carpeta **flowers**. El archivo **cat_to_name.json** es un archivo con indexación del número 1 al número 102 donde cada número provee el nombre del tipo de flor que se clasifica en las imagenes comentadas están distibuidas en las carpetas indexadas.
 
 El archivo **README.md** es un archivo plano, el cual trae una breve descripción del conjunto de datos.
 
