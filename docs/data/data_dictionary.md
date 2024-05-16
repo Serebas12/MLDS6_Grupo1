@@ -6,8 +6,11 @@ El conjunto de datos está etiquetado con un total de 102 categorías, esto defi
 
 Adicional, el conjunto de datos está dado sólo por la imagen y la etiqueta de la flor que representa la imagen, por lo tanto, el conjunto de datos carece de mayor información o variables que pueda ayudar con el entrenamiento del modelo, por lo que el modelo se enfoca solamente en la correcta clasificación de las imágenes que se le pueda dar en representación de una flor.
 
-## Distribución imagenes
-
-
 ## Variable objetivo
 
+Las imágenes se encuentran en 3 diferentes carpetas (), la división de estas carpetas se encuentra desde el repositorio original en Kaggle, razón por la cual se decide para objetivos del proyecto mantener las mismas. Sin embargo, es de gran importancia poder generar las etiquetas correspondientes a cada una de las imágenes, la cual se puede extraer de la estructura de la información que se tiene, a continuación, se muestra un ejemplo de dicha estructura: 
+
+![Texto alternativo](./data/Prueba.png)
+
+
+Para realizar la extracción de las etiquetas se realiza el uso de la librería os, en donde se genera una iteración para cada conjunto de imanes, cada caregoria y finalmente para cada una de imágenes, posteriormente, dichas etiquetas son guardadas en un array, el cual será utilizado más adelante en la etapa de modelamiento.
