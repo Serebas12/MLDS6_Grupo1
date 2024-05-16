@@ -12,7 +12,7 @@ Las imágenes se encuentran en 3 diferentes carpetas (train, valid, test), la di
 
 ![Carpetas](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/docs/data/carpetas.png)
 
-Para realizar la extracción de las etiquetas se realiza el uso de la librería os, en donde se genera una iteración para cada conjunto de imanes, cada categoria y finalmente para cada una de imágenes, posteriormente, dichas etiquetas son guardadas en un array, el cual será utilizado más adelante en la etapa de modelamiento. el detalle de la función utilizada se puede encontrar en el notebook [Creación etiqueta]()
+Para realizar la extracción de las etiquetas se realiza el uso de la librería os, en donde se genera una iteración para cada conjunto de imagenes, cada categoria y finalmente para cada una de imágenes, posteriormente, dichas etiquetas son guardadas en un array, el cual será utilizado más adelante en la etapa de modelamiento. el detalle de la función utilizada se puede encontrar en el notebook [Creación etiqueta](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/scripts/preprocessing/Creacion%20etiqueta.ipynb)
 
 
 ## Correspondencia etiquetas
