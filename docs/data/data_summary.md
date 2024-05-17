@@ -14,13 +14,38 @@ Al revisar nuestra base de entrenamiento, vemos que todas las imágenes del conj
 
 Adicionalmente, al examinar los tamaños de las imágenes con las que contamos en cada categoría, se concluye que si bien sus resoluciones están en un rango de alrededor de 500 a 800 pixeles en ancho y altura, estas no tienen, en general, el mismo tamaño por lo que vemos la necesidad de reescalarlas para tener consistencia en el proceso de entrenamiento.
 
-## Variable objetivo
+## Limpieza de datos
 
-El conjunto de datos está etiquetado con un total de 102 categorías, esto define la variable objetivo, y enfoca el desarrollo del proyecto en un modelo de clasificación, además, cada una de las categorías tiene entre 40 y 258 imágenes, lo que implica que es un conjunto de datos desbalanceado.
+Una vez cargado y analizado el contenido de nuestro conjunto de datos, se procederá a la transformación del mismo, de manera que permita la posterior ejecución de los modelos propuestos. Teniendo en cuenta que este proyecto busca realizar la clasificación de imágenes, se hará uso de redes convolucionales, las cuales tienen un mejor desempeño para este tipo de información insumo. En una fase posterior de análisis, se tomará la decisión de usar una red entrenada (Transfer Learning) o realizar un entrenamiento desde cero.
 
-## Variables individuales
+Adicionalmente, para lograr el mejor resultado del modelo y considerando que las imágenes tienen diferentes tamaños, se realizará un escalado de cada imagen para dejarlas en tensores de dimensión (224,224,3), donde se manejarán 3 canales, ya que todas las imágenes presentes en el conjunto de datos son a color.
 
-El conjunto de datos está dado sólo por la imagen y la etiqueta de la flor que representa la imagen, por lo tanto, el conjunto de datos carece de mayor información o variables que pueda ayudar con el entrenamiento del modelo, por lo que el modelo se enfoca solamente en la correcta clasificación de las imágenes que se le pueda dar en representación de una flor.
+Finalmente, para la etapa de modelado, requerimos que la información se encuentre separada por datos de entrenamiento, validación y prueba, requerimiento que ya se cumple, dado que la información en Kaggle se presenta de está forma. Por lo cual procederemos a hacer el procesamiento de información para cada conjunto de imágenes.
+
+### Imágenes Conjunto Entrenamiento
+
+La información del conjunto de entrenamiento se encuentra separada en carpetas, una para cada categoría, con un total de 102. Se realiza una iteración sobre cada categoría, para posteriormente realizar la transformación y re escalado de cada imagen, información que será alojada en la variable X_train, adicionalmente, se guardará la respectiva etiqueta en Y_train, la cual es extraída del nombre de la ruta de cada categoría.
+
+Adicionalmente, se realiza un análisis en la distribución de la cantidad de imágenes en cada categoría para el conjunto de entrenamiento, encontrando que las categorías tienen de 27 a 206 imágenes, dato relevante, ya que será teniendo en cuenta posteriormente para la elección del modelo a usar.
+
+![Entrenamiento](https://github.com/Serebas12/MLDS6_Grupo1/assets/169107851/bc48b8d3-6d52-48dc-96e7-9a7c9611a2b1)
+
+### Imágenes Conjunto Validación
+
+Semejante al conjunto de entrenamiento, las imágenes de validación se encuentran separadas en carpetas por cada categoría. Se realiza una iteración sobre cada carpeta, para posteriormente realizar la transformación y re escalado de cada imagen, información que será alojada en la variable X_valid, adicionalmente, se guardará la respectiva etiqueta en Y_valid, la cual es extraída del nombre de la ruta de cada categoría.
+
+Referente a la distribución de la cantidad de imágenes en cada categoría para el conjunto de validación, se encuentra que las categorías tienen de 1 a 28 imágenes.
+
+![Validación](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/docs/data/Validaci%C3%B3n.png)
+
+###  Imágenes Conjunto Test
+
+Semejante al conjunto de entrenamiento, las imágenes de prueba se encuentran separadas en carpetas por cada categoría. Se realiza una iteración sobre cada carpeta, para posteriormente realizar la transformación y re escalado de cada imagen, información que será alojada en la variable X_test, adicionalmente, se guardará la respectiva etiqueta en Y_test, la cual es extraída del nombre de la ruta de cada categoría.
+
+Referente a la distribución de la cantidad de imágenes en cada categoría para el conjunto de pruebas, se encuentra que las categorías tienen de 2 a 28 imágenes.
+
+![Prueba](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/docs/data/Prueba.png)
+
 
 ## Ranking de variables
 
