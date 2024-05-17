@@ -28,7 +28,7 @@ La información del conjunto de entrenamiento se encuentra separada en carpetas,
 
 Adicionalmente, se realiza un análisis en la distribución de la cantidad de imágenes en cada categoría para el conjunto de entrenamiento, encontrando que las categorías tienen de 27 a 206 imágenes, dato relevante, ya que será teniendo en cuenta posteriormente para la elección del modelo a usar.
 
-![Entrenamiento](https://github.com/Serebas12/MLDS6_Grupo1/assets/169107851/bc48b8d3-6d52-48dc-96e7-9a7c9611a2b1)
+![Entrenamiento](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/docs/data/Entrenamiento.png)
 
 ### Imágenes Conjunto Validación
 
