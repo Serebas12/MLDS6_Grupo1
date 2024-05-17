@@ -8,7 +8,7 @@ Adicional, el conjunto de datos está dado sólo por la imagen y la etiqueta de 
 
 ## Variable objetivo
 
-Las imágenes se encuentran en 3 diferentes carpetas (train, valid, test), la división de estas carpetas se encuentra desde el repositorio original en Kaggle, razón por la cual se decide para objetivos del proyecto mantener las mismas. Sin embargo, es de gran importancia poder generar las etiquetas (103) correspondientes a cada una de las imágenes, la cual se puede extraer de la estructura de la información que se tiene, a continuación, se muestra un ejemplo de dicha estructura sobre el conjunto test: 
+Las imágenes se encuentran en 3 diferentes carpetas (train, valid, test), la división de estas carpetas se encuentra desde el repositorio original en Kaggle, razón por la cual se decide para objetivos del proyecto mantener las mismas. Sin embargo, es de gran importancia poder generar las etiquetas (102) correspondientes a cada una de las imágenes, la cual se puede extraer de la estructura de la información que se tiene, a continuación, se muestra un ejemplo de dicha estructura sobre el conjunto test: 
 
 ![Carpetas](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/docs/data/carpetas.png)
 
