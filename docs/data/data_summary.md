@@ -24,23 +24,17 @@ Finalmente, para la etapa de modelado, requerimos que la información se encuent
 
 ### Imágenes Conjunto Entrenamiento
 
-La información del conjunto de entrenamiento se encuentra separada en carpetas, una para cada categoría, con un total de 102. Se realiza una iteración sobre cada categoría, para posteriormente realizar la transformación y re escalado de cada imagen, información que será alojada en la variable X_train, adicionalmente, se guardará la respectiva etiqueta en Y_train, la cual es extraída del nombre de la ruta de cada categoría.
-
-Adicionalmente, se realiza un análisis en la distribución de la cantidad de imágenes en cada categoría para el conjunto de entrenamiento, encontrando que las categorías tienen de 27 a 206 imágenes, dato relevante, ya que será teniendo en cuenta posteriormente para la elección del modelo a usar.
+Se realiza un análisis en la distribución de la cantidad de imágenes en cada categoría para el conjunto de entrenamiento, encontrando que las categorías tienen de 27 a 206 imágenes, dato relevante, ya que será teniendo en cuenta posteriormente para la elección del modelo a usar.
 
 ![Entrenamiento](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/docs/data/Entrenamiento.png)
 
 ### Imágenes Conjunto Validación
-
-Semejante al conjunto de entrenamiento, las imágenes de validación se encuentran separadas en carpetas por cada categoría. Se realiza una iteración sobre cada carpeta, para posteriormente realizar la transformación y re escalado de cada imagen, información que será alojada en la variable X_valid, adicionalmente, se guardará la respectiva etiqueta en Y_valid, la cual es extraída del nombre de la ruta de cada categoría.
 
 Referente a la distribución de la cantidad de imágenes en cada categoría para el conjunto de validación, se encuentra que las categorías tienen de 1 a 28 imágenes.
 
 ![Validación](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/docs/data/Validaci%C3%B3n.png)
 
 ###  Imágenes Conjunto Test
-
-Semejante al conjunto de entrenamiento, las imágenes de prueba se encuentran separadas en carpetas por cada categoría. Se realiza una iteración sobre cada carpeta, para posteriormente realizar la transformación y re escalado de cada imagen, información que será alojada en la variable X_test, adicionalmente, se guardará la respectiva etiqueta en Y_test, la cual es extraída del nombre de la ruta de cada categoría.
 
 Referente a la distribución de la cantidad de imágenes en cada categoría para el conjunto de pruebas, se encuentra que las categorías tienen de 2 a 28 imágenes.
 
