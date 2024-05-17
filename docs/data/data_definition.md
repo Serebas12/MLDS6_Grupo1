@@ -2,23 +2,21 @@
 
 ## Origen de los datos
 
-El conjunto de datos para el desarrollo del proyecto se obtuvo desde la página Kaggle, teniendo en cuenta que en está página se encuentra un repositorio de conjuntos de datos abiertos para todo tipo de análisis, aprovechamos para obtener un conjunto de datos para iniciar este propósito de análisis, y nos ofrezca la información suficiente para el desarrollo de este proyecto. Dejamos como apartado, la ruta donde se puede encontrar la referencia del conjunto de datos se encuentra en https://www.kaggle.com/datasets/yousefmohamed20/oxford-102-flower-dataset/data.
+El conjunto de datos para el desarrollo del proyecto se obtuvo desde la página Kaggle. Teniendo en cuenta que en esta página se encuentra un repositorio de conjuntos de datos abiertos para todo tipo de análisis, aprovechamos para obtener un conjunto de datos para iniciar este propósito de análisis y que nos ofrezca la información suficiente para el desarrollo de este proyecto. Dejamos como referencia la ruta donde se puede encontrar el conjunto de datos: https://www.kaggle.com/datasets/yousefmohamed20/oxford-102-flower-dataset/data.
 
 ## Especificación de los scripts para la carga de datos
 
-- [ ] Especificar los scripts utilizados para la carga de los datos. 
+Para la carga y preprocesamiento de las imágenes, el código se encuentra en el siguiente [enlace](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/scripts/preprocessing/Preprocesamiento.ipynb), donde incluimos de manera progresiva la lectura de los datos y el preprocesamiento de los mismos, además de una visualización de los datos que contiene nuestro conjunto de datos.
 
-## Referencias a rutas o bases de datos origen y destino
+El conjunto de datos se lee desde el origen y se trabaja directamente en memoria desde Colab, aprovechando la ventaja de que es un conjunto de datos ligero que nos permite no tener que realizar un almacenamiento de la preparación del mismo, donde los tiempos de ejecución del preprocesamiento de las imágenes son bajos.
 
-El conjunto de datos se lee desde el origen y se trabaja directamente en memoría desde colab, aprovechando la ventaja que es un conjunto de datos lígero que nos permite no tener que realizar un almacenamiento de la preparación del mismo, donde los tiempos de ejecución del preprocesamiento de las imágenes son bajos son bajos.
+La dirección para la lectura del conjunto de datos es yousefmohamed20/oxford-102-flower-dataset, donde, usando la API de Kaggle para Unix, se puede hacer la descarga directamente del conjunto de datos.
 
-La dirección para la lectura del conjunto de datos es yousefmohamed20/oxford-102-flower-dataset, donde usando la api de kaggle para unix se puede hacer la descarga directamente del conjunto de datos.
+Rutas de origen de datos
+La fuente del conjunto de datos es https://www.kaggle.com/datasets/yousefmohamed20/oxford-102-flower-dataset/data.
+La ruta de descarga del conjunto de datos por medio de la API de Kaggle en Unix es yousefmohamed20/oxford-102-flower-dataset.
+El conjunto de datos viene ordenado en carpetas, donde la carpeta principal está comprimida en formato .zip con el nombre 102 flower, y de aquí se desprenden las demás carpetas de la siguiente manera:
 
-### Rutas de origen de datos
-
--  La fuente del conjunto de datos es https://www.kaggle.com/datasets/yousefmohamed20/oxford-102-flower-dataset/data
--  La ruta de descarga del conjunto de datos por medio de la api de Kaggle en Unix es yousefmohamed20/oxford-102-flower-dataset
--  El conjunto de datos viene ordenado en carpetas, donde la carpeta principal viene comprimido en formato .zip con el nombre **102 flower**, y de aquí se desprende las demás carpetas d ela siguiente manera:
 ```
 **102 flowers/**
 ├── flowers/
@@ -32,10 +30,10 @@ La dirección para la lectura del conjunto de datos es yousefmohamed20/oxford-10
 └── README.md
 ```
 
-Donde la marca de las carpetas indexadas son 102 carpetas enumeradas del 1 al 102, donde cada una de estas flores contiene imagenes de un tipo de flores, las cuales se indexan en el archivo .json que se encuentra en la carpeta **flowers**. El archivo **cat_to_name.json** es un archivo con indexación del número 1 al número 102 donde cada número provee el nombre del tipo de flor que se clasifica en las imagenes comentadas están distibuidas en las carpetas indexadas.
+Donde la marca de las carpetas indexadas son 102 carpetas enumeradas del 1 al 102, cada una de estas contiene imágenes de un tipo de flor. Estas imágenes se indexan en el archivo .json que se encuentra en la carpeta **flowers**. El archivo **cat_to_name.json** es un archivo con indexación del número 1 al 102, donde cada número provee el nombre del tipo de flor que se clasifica en las imágenes distribuidas en las carpetas indexadas.
 
-El archivo **README.md** es un archivo plano, el cual trae una breve descripción del conjunto de datos.
+El archivo **README.md** es un archivo plano que contiene una breve descripción del conjunto de datos.
 
 ### Base de datos de destino
 
-Como todo los datos se van a manejar en caliente, es decir, después de realizar la recolección de datos desde la fuente, se realiza el preprocesamiento y no se almacena en ningún lado, si no que con la misma memoría que nos ofrece colab, las almacenamos para el proceso de entrenamiento y las diferentes pruebas y validaciones del modelo.
+Como todos los datos se van a manejar en caliente, es decir, después de realizar la recolección de datos desde la fuente, se realiza el preprocesamiento y no se almacena en ningún lado. Con la memoria que nos ofrece Colab, los almacenamos para el proceso de entrenamiento y las diferentes pruebas y validaciones del modelo.
