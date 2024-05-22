@@ -22,26 +22,28 @@ Para los modelos entrenados con la redefinición del alcance para clasificar só
 
 ## Evaluación del modelo
 
-Para la evaluación del modelo obtenemos un accuracy con el conjunto de testeo del 62% y el f1-score evaluado para cada categoría de manera inestable, como se puede observar a continuación:
-
-
-
-Descripción de las métricas utilizadas para evaluar el rendimiento del modelo.
+Para la evaluación del modelo obtenemos un accuracy con el conjunto de testeo del 62% y el f1-score de ...
 
 ### Resultados de evaluación
 
-Tabla que muestra los resultados de evaluación del modelo baseline, incluyendo las métricas de evaluación.
+Se puede observar a continuación la evaluación del f1-score individual de cada categoría, donde obtenemos varios tipos de flores con cero, y a modo de evidencia la necesidad de hacer un alcance del conjunto de datos.
+
+![f1_score_modelo_base](https://github.com/Serebas12/MLDS6_Grupo1/assets/166343815/b8477ca1-c588-45dd-a096-eab65c727bae) 
+
+Adicional hacemos una extención de los estadísticos recall y precition donde obtenemos de manera más clara la necesidad del acotamiento que mencionamos.
+
+![tabla resultados iniciales](https://github.com/Serebas12/MLDS6_Grupo1/assets/166343815/c7e6f334-5796-4827-ac10-179405a264f5)
 
 ## Análisis de los resultados
 
-Descripción de los resultados del modelo baseline, incluyendo fortalezas y debilidades del modelo.
+Dentro del ejercicio inicial, observamos que un modelo con arquitectura sencilla es suficiente para este proyecto, pues previamente logramos hacer la comparativa con arquitecturas de modelos con reconocimiento público y mayor complejidad para el aprendizaje de imágenes, pero en este caso particular, esos modelos lograron tener una gran tendencia a sobreajustarse, pero el modelo a la medida logró obtener un ajuste más equilibrado.
 
 ## Conclusiones
 
-Conclusiones generales sobre el rendimiento del modelo baseline y posibles áreas de mejora.
+El modelo tiene buenos resultados de clasificación para algunas categorías, pero no para todas, sobretodo para las categorías con baja información, por lo tanto es importante realizar un alcance basandonos en este tema, y profundizar sobre diferentes modelos para encontrar una arquitectura que nos pueda brindar mejores resultados para nuestro modelo.
 
 ## Referencias
 
-Lista de referencias utilizadas para construir el modelo baseline y evaluar su rendimiento.
+Desarrollo del proyecto del modulo 5 de MLDS
 
 Espero que te sea útil esta plantilla. Recuerda que puedes adaptarla a las necesidades específicas de tu proyecto.
