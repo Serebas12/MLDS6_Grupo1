@@ -2,7 +2,7 @@
 
 ## Registro MlFlow
 
-Con el fin de poder tener una trazabilidad clara de todos los experimentos realizados en el entrenamiento de modelos, ser realiza uso de MlFlow, en donde se dispondrá el modelo entrenado con las métricas de *accuracy*, *precision*, *recall*, y *f1_score*,  *loss* para cada uno de los casos. Par alo cual se generá el experimento *proyecto_mdls6_v1* y se realiza el registro de los siguientes modelos entrenados:
+Con el fin de poder tener una trazabilidad clara de todos los experimentos realizados en el entrenamiento de modelos, ser realiza uso de MlFlow, en donde se dispondrá el modelo entrenado con las métricas de *accuracy*, *precision*, *recall*, *f1_score* y  *loss* para cada uno de los casos. Par alo cual se generá el experimento *proyecto_mdls6_v1* y se realiza el registro de los siguientes modelos entrenados:
 
 - model_128N: Modelo convolucional con una capa de salida de 128 neuronas.
 - model_256N: Modelo convolucional con una capa de salida de 256 neuronas.
