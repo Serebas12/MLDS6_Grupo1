@@ -10,7 +10,7 @@ Con el fin de poder tener una trazabilidad clara de todos los experimentos reali
 
 ![Registro](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/docs/modeling/Registro.png)
 
-El detalle del código utilizado para el registro de cada uno de los experimentos se puede encontrar el notebook MlFlow
+El detalle del código utilizado para el registro de cada uno de los experimentos se puede encontrar el notebook [MlFlow](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/scripts/eda/MLFlow.ipynb)
 
 ## Selección modelo
 
