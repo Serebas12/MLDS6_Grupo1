@@ -2,7 +2,15 @@
 
 ## Registro MlFlow
 
+Con el fin de poder tener una trazabilidad clara de todos los experimentos realizados en el entrenamiento de modelos, ser realiza uso de MlFlow, en donde se dispondrá el modelo entrenado con las métricas de *accuracy*, *precision*, *recall*, y *f1_score*,  *loss* para cada uno de los casos. Par alo cual se generá el experimento *proyecto_mdls6_v1* y se realiza el registro de los siguientes modelos entrenados:
+
+- model_128N: Modelo convolucional con una capa de salida de 128 neuronas.
+- model_256N: Modelo convolucional con una capa de salida de 256 neuronas.
+- model_512N: Modelo convolucional con una capa de salida de 512 neuronas.
+
 ![Registro](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/docs/modeling/Registro.png)
+
+El detalle del código utilizado para el registro de cada uno de los experimentos se puede encontrar el notebook MlFlow
 
 ## Selección modelo
 
