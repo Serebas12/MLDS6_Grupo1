@@ -4,7 +4,7 @@ El modelo inicial fue desarrollado previamente con resultados que usamos para la
 
 ## Descripción del modelo
 
-Dado que nuestra tarea implica la clasificación de imágenes, optaremos por entrenar una red neuronal convolucional, debido a su eficaz rendimiento en la identificación de patrones visuales en imágenes. Además, es importante tener en cuenta que los datos en nuestro conjunto de entrenamiento presentan un desequilibrio entre las distintas clases, para abordar este desafío, implementaremos técnicas de aumento de datos (data augmentation) con el fin de mitigar cualquier sesgo que pueda surgir hacia las categorías más representadas, asegurando así una mayor equidad en la capacidad predictiva del modelo.
+Dado que nuestra tarea implica la clasificación de imágenes, optaremos por entrenar una red neuronal convolucional, debido a su eficaz rendimiento en la identificación de patrones visuales en imágenes. Además, se tuvo en cuenta que los datos en nuestro conjunto de entrenamiento presentan un desequilibrio entre las distintas clases. Para abordar este desafío, se implementaron técnicas de aumento de datos (data augmentation) con el fin de mitigar cualquier sesgo que pueda surgir hacia las categorías más representadas, mejorando así la equidad en la capacidad predictiva del modelo.
 
 El modelo desarrollado previamente contaba con un total de 14 capas, donde tenemos 5 capas convolucionales, 5 capas de pooling correspondiente a cada capa convolucional, una capa (flatten) que vectoriza los datos trabajados por la sección de extracción de características (capas convolucionales y de pooling), dos capas densas que organizan y trabajan los datos del vector obtenido con la capa flatten, y una capa final que clasifica las 102 categorías o tipos de flores que tenemos dispocisión para el desarrollo del proyecto. 
 
@@ -47,5 +47,3 @@ El modelo tiene buenos resultados de clasificación para algunas categorías, pe
 ## Referencias
 
 Desarrollo del proyecto del modulo 5 de MLDS
-
-Espero que te sea útil esta plantilla. Recuerda que puedes adaptarla a las necesidades específicas de tu proyecto.
