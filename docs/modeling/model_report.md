@@ -1,25 +1,27 @@
 # Reporte del Modelo Final
 
-## Resumen Ejecutivo
-
-En esta sección se presentará un resumen de los resultados obtenidos del modelo final. Es importante incluir los resultados de las métricas de evaluación y la interpretación de los mismos.
-
 ## Descripción del Problema
 
-En esta sección se describirá el problema que se buscó resolver con el modelo final. Se debe incluir una descripción detallada del problema, el contexto en el que se desarrolla, los objetivos que se persiguen y la justificación del modelo.
+Desarrollar e implementar un sistema de clasificación de especies de flores utilizando técnicas de aprendizaje profundo, con el fin de proporcionar una herramienta eficiente y accesible para la identificación precisa de plantas silvestres. Este sistema permitirá a usuarios sin experiencia botánica especializada identificar especies de flores simplemente tomando una fotografía, facilitando así el análisis de campo y contribuyendo a la comprensión y conservación de la biodiversidad vegetal. El proyecto también aspira a establecer una base inicial para la clasificación de flores que pueda expandirse en el futuro, incluyendo la detección de nuevas especies y la capacidad de comparación entre especies para fines educativos, profesionales e investigativos.
 
 ## Descripción del Modelo
 
-En esta sección se describirá el modelo final que se desarrolló para resolver el problema planteado. Se debe incluir una descripción detallada del modelo, la metodología utilizada y las técnicas empleadas.
+El modelo escogido cuenta con un total de 14 capas, donde tenemos 4 capas convolucionales, 4 capas de pooling correspondiente a cada capa convolucional, una capa (flatten) que vectoriza los datos trabajados por la sección de extracción de características (capas convolucionales y de pooling), dos capas densas con 512 neuronas y activación relu, que organizan y trabajan los datos del vector obtenido con la capa flatten. Finalmente, una capa de dropout y una capa final con 512 neuronas y activación softmax que clasifica las 18 categorías o tipos de flores que tenemos para el desarrollo del proyecto.
+
+![Arquitectura 512](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/docs/modeling/Arquitectura%20512.png)
 
 ## Evaluación del Modelo
 
-En esta sección se presentará una evaluación detallada del modelo final. Se deben incluir las métricas de evaluación que se utilizaron y una interpretación detallada de los resultados.
+Al revisar los modelos implementados, notamos que este modelo es el que presenta, para todas las métricas estudiadas, los mejores resultados. 
+
+| Métrica  | Resultado para el modelo |
+| ------------- | ------------- |
+| Accuracy  | 0.49 |
+| F1-score  | 0.43  |
+| Loss  | 8.06 |
+| Precision  | 0.46 |
+| Recall | 0.47  |
 
 ## Conclusiones y Recomendaciones
 
-En esta sección se presentarán las conclusiones y recomendaciones a partir de los resultados obtenidos. Se deben incluir los puntos fuertes y débiles del modelo, las limitaciones y los posibles escenarios de aplicación.
-
-## Referencias
-
-En esta sección se deben incluir las referencias bibliográficas y fuentes de información utilizadas en el desarrollo del modelo.
+Como se puede ver, al hacer la evaluación de las métricas accuracy, precision, recall, y f1_score y loss, concluímos que el mejor modelo es el que tiene 512 neuronas en las capas finales de su arquitectura, además de contar con únicamente 4 bloques de capas de convolución y pooling. Con esto se ve que agregar más de 4 bloques de extracción de características, no ayuda a mejorar el modelo, mientras que el uso de más neurones en las capas finales sí mejora la clasificación de las imágenes.
