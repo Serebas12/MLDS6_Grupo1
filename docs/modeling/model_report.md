@@ -14,13 +14,13 @@ El modelo escogido cuenta con un total de 14 capas, donde tenemos 4 capas convol
 
 Al revisar los modelos implementados, notamos que este modelo es el que presenta, para todas las métricas estudiadas, los mejores resultados. 
 
-| Métrica  | Resultado para el modelo |
-| ------------- | ------------- |
-| Accuracy  | 0.49 |
-| F1-score  | 0.43  |
-| Loss  | 8.06 |
-| Precision  | 0.46 |
-| Recall | 0.47  |
+| Métrica  | Modelo con 512 | Modelo con 216 | Modelo con 128 |
+| ------------- | ------------- | ------------- | ------------- |
+| Accuracy  | 0.49 | 0.46 | 0.42|
+| F1-score  | 0.43  | 0.34 | 0.32 |
+| Loss  | 8.06 | 8.67 | 9.26 |
+| Precision  | 0.56 | 0.31 | 0.40 |
+| Recall | 0.47  | 0.42 | 0.37 |
 
 ## Conclusiones y Recomendaciones
 
