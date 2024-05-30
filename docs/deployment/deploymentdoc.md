@@ -4,7 +4,7 @@
 
 - **Nombre del modelo:** Clasificación de Flores
 
-- **Plataforma de despliegue:** (plataforma donde se va a desplegar el modelo)
+- **Plataforma de despliegue:** El modelo será desplegado mediante CLI.
   
 - **Requisitos técnicos:** Para los requisitos en la ejecución del proceso se deben tener en cuenta las siguientes consideraciones: 
 1.	El código fue desarrollado con Python 3.10.12
