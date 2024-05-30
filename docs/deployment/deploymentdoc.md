@@ -51,7 +51,16 @@ Finalmente, se debe considerar la capada de seguridad y autenticación en cada u
 
 ## Documentación del despliegue
 
-- **Instrucciones de instalación:** (instrucciones detalladas para instalar el modelo en la plataforma de despliegue)
-- **Instrucciones de configuración:** (instrucciones detalladas para configurar el modelo en la plataforma de despliegue)
-- **Instrucciones de uso:** (instrucciones detalladas para utilizar el modelo en la plataforma de despliegue)
-- **Instrucciones de mantenimiento:** (instrucciones detalladas para mantener el modelo en la plataforma de despliegue)
+- **Instrucciones de instalación:** Se requiere que se carguen los archivos final_model.py, pyproject.toml y cat_to_name.json en el entorno donde se requiere realizar la ejecución del proceso, posteriormente se debe realiza la instalación mediante el comando *!pip install*  
+  
+- **Instrucciones de configuración:** No es requerido, ya que al cargar el modelo mediante CLI, este se encuentra completamente configurado.
+  
+- **Instrucciones de uso:** Una vez instalado el CLI, se puede hacer uso del mismo mediante la sentencia *!pred_model*, donde se debe especificar la ruta en la que se encuentra la imagen sujeta a clasificación. A continuación se presenta un ejemplo del uso:
+
+![Ejemplo](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/docs/deployment/Ejemplo.png)
+
+Adicionalmente, se debe tener en cuenta que la respuesta del modelo es el nombre de la especie de flor a la cual pertenece la imagen. 
+
+- **Instrucciones de mantenimiento:** El objetivo del proyecto es dar una base inicial en la clasificación de flores, todos los resultados del mismo serán compartidos a la comunidad, con el fin, de que en un futuro, un usuario adicional pueda retomar dichos desarrollos e incorporar nuevas imágenes o nuevas especies, sin embargo, se debe tener en cuenta que si se modifica el modelo base, se requiere nuevamente implementar el CLI, tal como se realizo en el presente proyecto.
+
+
