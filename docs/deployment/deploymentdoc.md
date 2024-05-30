@@ -45,9 +45,9 @@ Finalmente, se debe considerar la capada de seguridad y autenticación en cada u
 
 ## Código de despliegue
 
-- **Archivo principal:** (nombre del archivo principal que contiene el código de despliegue)
-- **Rutas de acceso a los archivos:** (lista de rutas de acceso a los archivos necesarios para el despliegue)
-- **Variables de entorno:** (lista de variables de entorno necesarias para el despliegue)
+- **Archivo principal:** El modelo se encuentra en un archivo CLI, el cual se puede generar siguiendo las indicación del notebook [creacion_cli_modelo_final](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/scripts/evaluation/creacion_cli_modelo_final.ipynb).
+- **Rutas de acceso a los archivos:** El archivo se puede encontrar en el notebook [creacion_cli_modelo_final](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/scripts/evaluation/creacion_cli_modelo_final.ipynb). No se carga el archivo CLI directamente teniendo en cuenta el peso que este tiene. 
+- **Variables de entorno:** No es requerida ninguna variable de entorno, unicamente con la instalación del CLI se puede realizar uso del modelo entrenado. 
 
 ## Documentación del despliegue
 
