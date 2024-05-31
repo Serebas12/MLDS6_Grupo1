@@ -14,7 +14,7 @@ Finalmente, se despliega el modelo en una interfaz de línea de comandos, donde 
 El proyecto se llevó a cabo a través de varias etapas, resultando así mismo en los siguientes entregables
 
 - [Entendimiento del negocio](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/docs/business_understanding/project_charter.md): Se define la pertinencia de un modelo clasificador de flores, teniendo en cuenta los datos con los que contamos. Se define también el alcance del proyecto y su metodología. Vemos en esta etapa final que el objetivo principal del proyecto ha sido alcanzados exitosamente, ya que contamos con un modelo de clasificación que clasifica imágenes de flores en su categoría.
--	Carga de los datos: Los datos se obtuvieron de Kaggle, y presentamos la ![definición de los datos](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/docs/data/data_definition.md), su respectivo ![reporte](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/docs/data/data_summary.md) y ![diccionario](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/docs/data/data_dictionary.md).
+-	Carga de los datos: Los datos se obtuvieron de Kaggle, y presentamos la [definición de los datos](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/docs/data/data_definition.md), su respectivo [reporte](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/docs/data/data_summary.md) y [diccionario](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/docs/data/data_dictionary.md).
 -	
 
 
