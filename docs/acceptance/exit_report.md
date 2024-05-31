@@ -2,13 +2,21 @@
 
 ## Resumen Ejecutivo
 
-Este informe describe los resultados del proyecto de machine learning y presenta los principales logros y lecciones aprendidas durante el proceso.
+En el presente proyecto se desarrolló e implementó un sistema de clasificación de especies de flores utilizando técnicas de aprendizaje profundo, con el fin de proporcionar una herramienta eficiente y accesible para la identificación precisa de plantas silvestres. 
+
+Para esto, se entrenó una red neuronal convolucional con un total de 14 capas , usando una base de datos de flores con 8,189 imágenes, clasificadas en 102 categorías o etiquetas distintas, para las cuales contábamos con un catálogo de etiquetas en inglés que proporciona los nombres de las flores representadas en cada imagen.
+
+Finalmente, se despliega el modelo en una interfaz de línea de comandos, donde el usuario debe cargar los archivos del modelo final, para luego predecir la categoría de cualquier imagen de una flor.
+
 
 ## Resultados del proyecto
 
-- Resumen de los entregables y logros alcanzados en cada etapa del proyecto.
-- Evaluación del modelo final y comparación con el modelo base.
-- Descripción de los resultados y su relevancia para el negocio.
+El proyecto se llevó a cabo a través de varias etapas, resultando así mismo en los siguientes entregables
+
+- [Entendimiento del negocio](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/docs/business_understanding/project_charter.md): Se define la pertinencia de un modelo clasificador de flores, teniendo en cuenta los datos con los que contamos. Se define también el alcance del proyecto y su metodología. Vemos en esta etapa final que el objetivo principal del proyecto ha sido alcanzados exitosamente, ya que contamos con un modelo de clasificación que clasifica imágenes de flores en su categoría.
+-	Carga de los datos: Los datos se obtuvieron de Kaggle, y presentamos la ![definición de los datos](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/docs/data/data_definition.md), su respectivo ![reporte](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/docs/data/data_summary.md) y ![diccionario](https://github.com/Serebas12/MLDS6_Grupo1/blob/master/docs/data/data_dictionary.md).
+-	
+
 
 ## Lecciones aprendidas
 
